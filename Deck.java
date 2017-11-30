@@ -46,9 +46,10 @@ public class Deck {
 			cards.set(j,b);
 		}
 		nUsed = 0;
-		for (int i = 0; i < openCard.size(); i++) {
-			openCard.remove(i);
-		}
+		//for (int i = 0; i < openCard.size(); i++) {
+			//openCard.remove(i);
+		//}
+		openCard.clear();
 		for (int i = 0; i < usedCard.size(); i++) {
 			usedCard.remove(i);
 		}

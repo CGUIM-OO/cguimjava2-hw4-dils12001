@@ -16,7 +16,8 @@ public class Player {
 	}
 
 	public int makeBet() {
-		if (bet <= 0)
+		bet = 10000;
+		if (chips < 1)
 			return 0;
 		else
 			return bet;
